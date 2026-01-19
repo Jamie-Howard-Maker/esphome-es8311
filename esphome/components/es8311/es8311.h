@@ -42,6 +42,6 @@ class ES8311Init : public i2s_audio::I2SCodec {
     i2c_bus_->write_byte_data(0x18, reg, value);  // ES8311 default I2C addr = 0x18
   }
 };
-
+extern ES8311Init es8311_instance;
 }  // namespace es8311
 }  // namespace esphome
