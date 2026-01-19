@@ -2,3 +2,4 @@ esphome:
   name: es8311
   platform: ESP32
   version: 1.0.0
+  includes: ["es8311.h"]
